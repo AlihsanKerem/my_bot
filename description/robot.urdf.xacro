@@ -7,7 +7,13 @@
 
     <xacro:include filename="lidar.xacro"/>
     
-    <xacro:include filename="camera.xacro"/>
+    <!-- <xacro:include filename="camera.xacro"/> -->
+    
+    <xacro:include filename="depth_camera.xacro"/>
+
+    <!-- At the same time both normal camera and 
+     depth camera cant work so we need to choose 
+     one of them-->
 
 
 </robot>
